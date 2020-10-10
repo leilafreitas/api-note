@@ -12,5 +12,5 @@ server.use(cors());
 server.use(bodyParser.urlencoded({extended:false}));
 server.use('/api',routes);
 server.listen(process.env.PORT, ()=>{
-    console.log(`SERVIDOR RODANDO NA PORTA : ${process.env.PORT}`);
+    console.log(`SERVIDOR RODANDO NA PORTA DE NUMERO: ${process.env.PORT}`);
 })
